@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel Login</title>
+    <link rel="stylesheet" href="log1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><del>My Blog</del></h1>
+        <nav id="navibar">
+        
+                <!-- <a href="http://127.0.0.1:5500/fronpage.html">Home</a> -->
+                 <a href="http://127.0.0.1:5500/fronpage.html"></a>
+                <a href="http://127.0.0.1:5500/about.html">About</a>
+                <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+            
+        </nav>
+    </header>
+   
+    <section id="lg">
+
+        <div class="container">
+            <!-- <h1 style="text-align: center;"><del style="background-color: brown; margin-left: 20px;">You don't Have login ID</del><center s  margin-left: 20px;">You First SignUP</center></h1> -->
+        
+                <div class="form-container">
+                    <form id="loginForm" class="form">
+                        <h2>Login</h2>
+                        <input type="text" id="username" placeholder="Username" required>
+                        <input type="password" id="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    
+                    <form id="signupForm" class="form hidden">
+                        <h2>Sign Up</h2>
+                        <input type="text" id="newUsername" placeholder="Username" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="password" id="newPassword" placeholder="Password" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+        
+                    <div class="toggle-form">
+                        <p id="toggleToSignUp">Don't have an account? <span>Sign Up</span></p>
+                        <p id="toggleToLogin" class="hidden">Already have an account? <span>Login</span></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <p style="color: #fff;">&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="log1.js"></script>
+</body>
+</html>

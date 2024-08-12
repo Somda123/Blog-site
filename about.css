@@ -1,0 +1,156 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url("photo/leaves-8504392_1280.webp"); */
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    /* text-align: center; */
+}
+#navibar{
+    text-align: end;
+    padding: 10px 20px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#blog-posts {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(9, 9, 9, 0.1);
+}
+
+article h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.read-more {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #555;
+}
+
+
+/*this is best */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* About Section Styling */
+#about {
+    background-image: url("photo/leaves.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed; 
+    background-color: #f4f4f4;
+    
+    /* transition: background-color 0.5s ease, color 0.5s ease; */
+    color: #333;
+    padding: 50px 0 ;
+}
+
+#about .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 90px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #0e0000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #about h2 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

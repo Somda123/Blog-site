@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('photo/sky-7232494_1280.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* backdrop-filter: blur(100px);  */
+    /* background-color: #f4f4f4; */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#search {
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+#create-post, #posts {
+    margin-bottom: 40px;
+}
+
+#create-post h2, #posts h2 {
+    margin-top: 0;
+    /* color: white; */
+}
+
+#create-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+#create-post form input,  #create-post form select, #create-post form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#create-post form textarea{
+    margin-bottom: 10px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-list .post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#post-list .post h3 {
+    margin: 0;
+}
+
+#post-list .post p {
+    margin: 10px 0;
+}
+
+#post-list .post .likes, #post-list .post .comments {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

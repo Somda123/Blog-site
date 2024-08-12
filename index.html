@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; 
+            /* background-image: url("photo/bg.png");   */
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; }
+        header { background-color: #333; color: #fff; padding: 10px 20px; }
+        header h1 { margin: 0; }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; }
+        .hero { background: url('hero-image.jpg') no-repeat center center; background-size: cover; color: #fff; padding: 100px 20px; text-align: center; }
+        .hero h2 { margin: 0; font-size: 3em; }
+        .main { padding: 20px; }
+        .post { margin-bottom: 20px; }
+        .post img { width: 100%; max-height: 200px; object-fit: cover; }
+        .post h3 { margin: 0; }
+        footer { background-color: #333; color: #fff; padding: 10px 20px; text-align: center; }
+        .navi{ text-align: end;
+        padding: 0;}
+        p,h2 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><del>My Blog</del></h1>
+        <nav class="navi">
+            <!-- <a href="http://127.0.0.1:5500/fronpage.html">Home</a> -->
+             <!-- <a href="http://127.0.0.1:5500/home.htm">Home</a> -->
+            <a href="http://127.0.0.1:5500/about.html">About</a>
+            <!-- <a href="#">Categories</a> -->
+            <!-- <a href="http://127.0.0.1:5500/demo.html">CreatePost</a> -->
+            <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+            <a href="http://127.0.0.1:5500/log1.html">SignUP</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Featured Post</h2>
+        <p>Discover our latest blog post on interesting topics.</p>
+    <!-- <h1><del style="background-color: brown; margin-left: 20px;">You don't Have login ID</del><center style="background-color: aqua;"  >You First SignUP</center></h1> -->
+
+        <a href="http://127.0.0.1:5500/log1.html" style="background-color: #f60; color: #fff; padding: 10px 20px; text-decoration: none;">Read More</a>
+    </section>
+    <main class="main">
+        <article class="post">
+            <img src="photo/map-of-the-world-2401458_1280.jpg" alt="Post Image">
+            <h3>Post Title 1</h3>
+            <p>Short excerpt of the post...</p>
+            <a href="http://127.0.0.1:5500/log1.html">Read More</a>
+        </article>
+        <article class="post">
+            <img src="photo/login_bg.avif" alt="Post Image">
+            <h3>Post Title 2</h3>
+            <p>Short excerpt of the post...</p>
+            <a href="http://127.0.0.1:5500/log1.html">Read More</a>
+        </article>
+        <article class="post">
+            <img src="photo/images.jpg" alt="Post Image">
+            <h3>Post Title 3</h3>
+            <p>Short excerpt of the post...</p>
+            <a href="http://127.0.0.1:5500/log1.html">Read More</a>
+        </article>
+    </main>
+    <footer>
+        <p style="color: #fff;">&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

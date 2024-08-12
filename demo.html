@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Blog Platform</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <header>
+        <h1><del>My Blog</del></h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/fronpage.html">Home</a></li>
+                <!-- <li><a href="#">Technology</a></li> -->
+                <!-- <li><a href="#">Lifestyle</a></li> -->
+                <!-- <li><a href="#">Nature</a></li> -->
+                <!-- <li><a href="#">Travel</a></li> -->
+                 <li>
+                 <a href="http://127.0.0.1:5500/about.html">About</a>
+                 </li>
+                 <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+                <!-- <li><a href="http://127.0.0.1:5500/log1.html">SignUP</a></li> -->
+            </ul>
+        </nav>
+
+    </header><br>
+    <center>
+        <input   type="text" id="search" placeholder="Search...">
+    </center>
+
+    <main>
+        <section id="create-post">
+            <h2>Create a Post</h2>
+            <form id="post-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Content" required></textarea>
+                <label for="image">Upload Image:</label>
+    <input type="file" id="image" name="image" accept="image/*" required><br><br>
+
+    <!-- <input type="submit" value="Publish Post"> -->
+                <select id="category" required>
+                    <option value="Technology">Technology</option>
+                    <option value="Lifestyle">Lifestyle</option>
+                    <option value="Nature">Nature</option>
+                    <option value="Travel">Travel</option>
+                </select>
+                <button type="submit">Create Post</button>
+            </form>
+        </section>
+
+        <section id="posts">
+            <h2>Blog Posts</h2>
+            <div id="filter">
+                <label for="category-filter">Filter by Category:</label>
+                <select id="category-filter">
+                    <option value="All">All</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Lifestyle">Lifestyle</option>
+                    <option value="Nature">Nature</option>
+                    <option value="Travel">Travel</option>
+                </select>
+            </div>
+            <div id="post-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+        <p><a href="#">Contact Us</a> | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="demo.js"></script>
+</body>
+</html>
